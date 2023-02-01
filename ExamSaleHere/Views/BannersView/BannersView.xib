@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BannersView" customModule="ExamSaleHere" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="XwC-st-yBR" id="kHa-L1-GHp"/>
+                <outlet property="title" destination="jvP-uV-lHT" id="M4G-3G-vqI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="298"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvP-uV-lHT">
+                    <rect key="frame" x="10" y="10" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="XwC-st-yBR">
+                    <rect key="frame" x="0.0" y="41" width="480" height="257"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="20" minimumInteritemSpacing="10" id="ege-FO-aWn">
+                        <size key="itemSize" width="250" height="150"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="8pD-i0-di3"/>
+                        <outlet property="delegate" destination="-1" id="cyD-NP-ayA"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="jvP-uV-lHT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="2Ts-ig-dmt"/>
+                <constraint firstItem="jvP-uV-lHT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="RHG-hV-ABE"/>
+                <constraint firstItem="XwC-st-yBR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="iJj-Rg-Yze"/>
+                <constraint firstAttribute="trailing" secondItem="XwC-st-yBR" secondAttribute="trailing" id="s0d-71-TNZ"/>
+                <constraint firstAttribute="bottom" secondItem="XwC-st-yBR" secondAttribute="bottom" id="y9h-bv-K3h"/>
+                <constraint firstItem="XwC-st-yBR" firstAttribute="top" secondItem="jvP-uV-lHT" secondAttribute="bottom" constant="10" id="zec-V1-85r"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="141.98473282442748" y="255.63380281690141"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
