@@ -22,12 +22,12 @@ class GoalCell: UICollectionViewCell {
     didSet {
       if goodState {
         state.text = "Good"
-        state.textColor = UIColor.green
-        contentView.backgroundColor = UIColor.green
+        state.textColor = #colorLiteral(red: 0.1019607843, green: 0.4784313725, blue: 0, alpha: 1)
+        contentView.backgroundColor = #colorLiteral(red: 0.1019607843, green: 0.4784313725, blue: 0, alpha: 1)
       } else {
         state.text = "Unhappy"
-        state.textColor = UIColor.red
-        contentView.backgroundColor = UIColor.red
+        state.textColor = #colorLiteral(red: 0.9568627451, green: 0.3803921569, blue: 0.06666666667, alpha: 1)
+        contentView.backgroundColor = #colorLiteral(red: 0.7843137255, green: 0.2862745098, blue: 0.02352941176, alpha: 1)
       }
     }
   }
