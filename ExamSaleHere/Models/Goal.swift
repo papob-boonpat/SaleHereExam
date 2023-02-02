@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+
 struct Goal {
   let expect: Int
   let current: Int
