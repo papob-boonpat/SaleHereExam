@@ -10,6 +10,8 @@
 		529BE7B6A7F1D9C7724CA287 /* Pods_ExamSaleHere.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF4EAF7F093F52F2FA82790 /* Pods_ExamSaleHere.framework */; };
 		6FCABF068BC409403C5C3791 /* Pods_ExamSaleHere_ExamSaleHereUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE7AEDE25C3D6473996FC45 /* Pods_ExamSaleHere_ExamSaleHereUITests.framework */; };
 		A652281F5B333700C664D514 /* Pods_ExamSaleHereTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8B06527758A073ACE67C33 /* Pods_ExamSaleHereTests.framework */; };
+		EF0919B7298BEB56007D6954 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0919B6298BEB56007D6954 /* SocketManager.swift */; };
+		EF0919B9298BF87F007D6954 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0919B8298BF87F007D6954 /* TabBarController.swift */; };
 		EF2080F9298B82D3007C224C /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2080F8298B82D3007C224C /* GoalViewController.swift */; };
 		EF2080FB298B9857007C224C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2080FA298B9857007C224C /* CategoryCell.swift */; };
 		EF2080FD298B9C43007C224C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2080FC298B9C43007C224C /* Category.swift */; };
@@ -68,6 +70,8 @@
 		BFE7D4DC2E35A8D0C111FEFB /* Pods-ExamSaleHereTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamSaleHereTests.release.xcconfig"; path = "Target Support Files/Pods-ExamSaleHereTests/Pods-ExamSaleHereTests.release.xcconfig"; sourceTree = "<group>"; };
 		DF4396676FC89FAE4707255B /* Pods-ExamSaleHere-ExamSaleHereUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamSaleHere-ExamSaleHereUITests.release.xcconfig"; path = "Target Support Files/Pods-ExamSaleHere-ExamSaleHereUITests/Pods-ExamSaleHere-ExamSaleHereUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DF8B06527758A073ACE67C33 /* Pods_ExamSaleHereTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExamSaleHereTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0919B6298BEB56007D6954 /* SocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
+		EF0919B8298BF87F007D6954 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		EF2080F8298B82D3007C224C /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
 		EF2080FA298B9857007C224C /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		EF2080FC298B9C43007C224C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -223,6 +227,7 @@
 				EFE3CB95298AE3EE0096409E /* BannersView */,
 				EFE3CB80298ABB670096409E /* GoalsView */,
 				EF2080FA298B9857007C224C /* CategoryCell.swift */,
+				EF0919B8298BF87F007D6954 /* TabBarController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				EFE3CB7E298ABAD30096409E /* ViewNib.swift */,
+				EF0919B6298BEB56007D6954 /* SocketManager.swift */,
 				EF2080FE298B9F29007C224C /* ViewController.swift */,
 				EFE3CB86298AD6380096409E /* Number.swift */,
 				EFE3CB9F298AE9D10096409E /* Image.swift */,
@@ -557,12 +563,14 @@
 				EF42329D298B6127005D6630 /* AcheivementViewController.swift in Sources */,
 				EF2080F9298B82D3007C224C /* GoalViewController.swift in Sources */,
 				EF782E00298A94B300EB748B /* HomeViewController.swift in Sources */,
+				EF0919B7298BEB56007D6954 /* SocketManager.swift in Sources */,
 				EFE3CB99298AE44A0096409E /* BannersView.swift in Sources */,
 				EFE3CB87298AD6380096409E /* Number.swift in Sources */,
 				EF208104298BA29A007C224C /* CustomTextField.swift in Sources */,
 				EF782DFC298A94B300EB748B /* AppDelegate.swift in Sources */,
 				EFE3CB85298AC4650096409E /* GoalCell.swift in Sources */,
 				EF782DFE298A94B300EB748B /* SceneDelegate.swift in Sources */,
+				EF0919B9298BF87F007D6954 /* TabBarController.swift in Sources */,
 				EF2080FD298B9C43007C224C /* Category.swift in Sources */,
 				EFE3CB7F298ABAD30096409E /* ViewNib.swift in Sources */,
 				EFE3CBA0298AE9D10096409E /* Image.swift in Sources */,

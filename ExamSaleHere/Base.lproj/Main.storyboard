@@ -435,7 +435,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="q56-4Q-vTT">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="isk-4Q-01C" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="isk-4Q-01C" customClass="TabBarController" customModule="ExamSaleHere" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="03c-Hf-tS8">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
