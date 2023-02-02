@@ -32,14 +32,17 @@ class GoalViewController: UIViewController {
     navigationController?.isNavigationBarHidden = true
     headerViewConstraint.constant = getSafeAreaTop() + 120
   }
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     collectionView.delegate = self
     collectionView.dataSource = self
+    
     contentSizeObservation = collectionView.observe(\.contentSize) { [weak self] _, _ in
       self?.contentSizeObservation = nil
       self?.collectionViewConstraint.constant = self?.collectionView.contentSize.height ?? 0
     }
+    
     amountView.placholder = "Amount"
     amountView.suffix = "THB"
     rateView.suffix = "THB / Month"
